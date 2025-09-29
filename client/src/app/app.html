@@ -1,0 +1,24 @@
+ <div class="card bg-base-100 w-1/2 mx-auto p-10 shadow-xl text-black">
+    <h3 class="text-3xl text-red-500">{{title}}</h3>
+    <ul class="text-black-500">
+            @for (member of members(); track member.id) {
+                <li class="flex items-center gap-5 my-2">
+                    <img src="/user.jpg" alt="user avatar" class="size-12 rounded-e-box">
+                    <div>
+                        {{member.displayName}}
+                    </div>
+                    
+                </li>
+            }
+        </ul>
+    </div>
+
+
+    
+    
+    
+    
+ 
+
+
+
